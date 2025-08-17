@@ -401,7 +401,14 @@ section {
 .timeline-date {
     color: #6b7280;
     font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-location {
+    color: #6b7280;
+    font-weight: 400;
     margin-bottom: 1rem;
+    font-style: italic;
 }
 
 .timeline-content ul {
@@ -421,6 +428,54 @@ section {
     left: 0;
     color: #2563eb;
     font-weight: bold;
+}
+
+/* Education Section */
+.education {
+    padding: 5rem 0;
+    background: #f9fafb;
+}
+
+.education-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.education-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.education-item:hover {
+    transform: translateY(-5px);
+}
+
+.education-header h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.education-header h4 {
+    font-size: 1.1rem;
+    color: #2563eb;
+    margin-bottom: 0.5rem;
+}
+
+.education-date {
+    color: #6b7280;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.education-location {
+    color: #6b7280;
+    font-weight: 400;
+    font-style: italic;
 }
 
 /* Skills Section */
@@ -554,6 +609,16 @@ section {
 
 .project-links a:hover {
     color: #1d4ed8;
+}
+
+.project-impact {
+    color: #059669;
+    font-weight: 600;
+    font-size: 0.9rem;
+    background: #d1fae5;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    display: inline-block;
 }
 
 /* Contact Section */
@@ -718,6 +783,10 @@ section {
 
     .about-stats {
         grid-template-columns: 1fr;
+    }
+
+    .education-content {
+        padding: 0 1rem;
     }
 }
 
